@@ -1,0 +1,36 @@
+<!--use doc shortcut to generate-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html+css</title>
+    <!--to link a css file to this html file-->
+    <link rel="stylesheet" href="P5.css">
+</head>
+<body>
+    <!--bad practice of using css (style as an attribute in an element)-->
+    <h1 style="background: blue;">Hello World</h1>
+    <h1>Hello World again</h1>
+    <p style="background: greenyellow;">insert paragraph</p>
+
+    <!--class (use . in CSS)-->
+    <div class="blue">
+        Hello blue class
+    </div>
+    <div class="red">
+        Hello red class
+    </div>
+    <!--id (use # in CSS)-->
+    <p id="red1">sentence 1</p>
+    <p id="blue2">sentence 2</p>
+    <!--class and id almost have the same usage
+        , just use one of them (id is slightly faster by a very little bit)-->
+
+    <!--inline vs block element, span = inline-->
+    <span class="inline">an inline element example that has been changed to block</span>
+    <div class="block">a block element example thas has been changed to inline</div>
+    <!--CSS can change inline element to block and vice versa,
+    by adding -> display: block; or display: inline;-->
+</body>
+</html>

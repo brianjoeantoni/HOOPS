@@ -1,0 +1,410 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100px;
+    /* background-image: url("main pic.jfif");
+    background-repeat: no-repeat; */
+}
+
+body img{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.75);
+}
+
+.navContent{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navContent a{
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navContent a:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.navDrop:hover .navContent{
+    display: block;
+}
+
+.navDrop{
+    height: 5vh;
+    position: relative;
+    display: inline-block;
+    height: auto;
+}
+
+.scart{
+    width: 120px;
+    height: 80px;
+    margin-right: 10px;
+    display: flex;
+    text-decoration: none;
+}
+
+.scart img{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.scart span{
+    font-size: 20px;
+    color: #fff;
+}
+
+.headerDrop{
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 30px;
+    border: none;
+    color: white;
+    height: 60px;
+    width: 30px;
+}
+
+.headerDrop:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+.logo img{
+    margin-right: 100px;
+    padding: 0px 0px;
+    height: 90px;
+    width: auto;
+    float: left;
+}
+
+.brand{
+    width: 100vw;
+    height: 225px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: rgb(53, 53, 53);
+    background-color: black;
+}
+
+.brand p{
+    margin-top: 45px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+}
+
+.row1sepatu1 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row1sepatu2 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row1sepatu3 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row1sepatu4 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row1sepatu5 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row2sepatu1 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row2sepatu2 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row2sepatu3 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row2sepatu4 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row2sepatu5 img:hover{
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 4px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(202, 202, 202);
+    
+}
+.row1 img{
+    border: rgb(0, 0, 0);
+    border-radius: 1vw;
+    margin-top: 10%;
+    padding: 10px;
+    width: 19vw;
+    border: 2px solid transparent;
+}
+
+.row1 p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(53, 53, 53);
+}
+
+.row1 h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgb(53, 53, 53);
+}
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(202, 202, 202);
+}
+
+.row2 img{
+    border: rgb(0, 0, 0);
+    border-radius: 1vw;
+    margin-top: 10%;
+    padding: 10px;
+    width: 19vw;
+    border: 2px solid transparent;
+}
+
+.row2 p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(53, 53, 53);
+}
+
+.row2 h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgb(53, 53, 53);
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo ul img{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 45px;
+    height: 45px;
+}
+
+.logo ul img a:hover{
+    border-radius: 4px;
+    transition: 0.3s;
+    border-bottom: 1px solid rgb(250, 134, 38)
+}
+
+nav ul li a:hover{
+    border-radius: 4px;
+    transition: 0.3s;
+    border-bottom: 1px solid rgb(250, 134, 38)
+}
+
+main{
+    width: 100vw;
+}
+
+footer{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footerNav{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.drop{
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.footerIndex1{
+    height: 5vh;
+    position: relative;
+    display: inline-block;
+    height: auto;
+}
+
+.footerIndex2{
+    height: 5vh;
+    position: relative;
+    display: inline-block;
+}
+
+.footerIndex3{
+    height: 5vh;
+    position: relative;
+    display: inline-block;
+}
+
+.footerIndex4{
+    height: 5vh;
+    position: relative;
+    display: inline-block;
+}
+
+.footerContent{
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.footerContent a{
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.footerContent a:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.footerIndex1:hover .footerContent{
+    display: block;
+}
+
+.footerIndex2:hover .footerContent{
+    display: block;
+}
+
+.footerIndex3:hover .footerContent{
+    display: block;
+}
+
+.footerIndex4:hover .footerContent{
+    display: block;
+}
+
+.footerIndex1:hover .drop{
+    background-color: rgb(36, 36, 36);
+}
+
+.footerIndex2:hover .drop{
+    background-color: rgb(36, 36, 36);
+}
+
+.footerIndex3:hover .drop{
+    background-color: rgb(36, 36, 36);
+}
+
+.footerIndex4:hover .drop{
+    background-color: rgb(36, 36, 36);
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+@media screen and (max-width : 1080px) {
+    .row1 p{
+        font-size: 20px;
+    }
+
+    .row1 h1{
+        font-size: 25px;
+    }
+    
+    .row2 p{
+        font-size: 20px;
+    }
+
+    .row2 h1{
+        font-size: 25px;
+    }
+
+    main{
+        height: 85vh;
+        background-color: rgb(202, 202, 202);
+    }
+
+    footer{
+        height: 15vh;
+    }
+
+    footer .footerNav{
+        height: 15vh;
+    }
+}
